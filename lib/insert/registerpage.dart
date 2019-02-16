@@ -22,7 +22,8 @@ class Registerwork extends State<Registerpage> {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-          title: Text("Register"),
+          centerTitle: true ,
+          title: new Text("Register"),
       ),
       body: Form(
          key: _formKey,
